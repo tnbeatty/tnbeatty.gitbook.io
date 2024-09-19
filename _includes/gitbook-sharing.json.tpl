@@ -1,5 +1,5 @@
             "sharing": {
-                "facebook": true,
+                "facebook": false,
 
                 "google": false,
 
@@ -23,6 +23,4 @@
                 "vk": false,
 
                 "weibo": false,
-
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
             },
