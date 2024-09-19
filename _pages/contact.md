@@ -1,7 +1,7 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: Nate Beatty
+date: 2024-09-18
 category: Jekyll
 layout: post
 ---

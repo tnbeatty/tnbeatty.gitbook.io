@@ -1,20 +1,22 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Nate Beatty
+longtitle:        Nate's website and blog | Former CTO of IrisVR
+author:           Nate Beatty
+twitter_username: tnbeatty
+github_username:  tnbeatty
+# email:          donotemail@gmail.com  
 description: >
-  Build Jekyll site with the GitBook style.
+  Useful, useless, and/or needless information.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://tnbeatty.github.io'
+# baseurl:          '/'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: tnbeatty/tnbeatty.github.io
 
 toc:
   enabled: true
@@ -36,7 +38,7 @@ kramdown:
   syntax_highlighter_opts:
     guess_lang:           true
 
-syntax_highlighter_style: colorful
+syntax_highlighter_style: monokai_sublime
 
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
@@ -53,14 +55,10 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-  others:
-    output: true
-    permalink: /:collection/:path/
 
 ordered_collections:
   - posts
   - pages
-  - others
 
 page_width: 800px
 
